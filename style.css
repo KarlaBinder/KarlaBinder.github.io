@@ -1,0 +1,425 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.links a {
+  margin-right: 20px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.contact-btn {
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #5e3bee;
+  border: 2px solid #5e3bee;
+  border-radius: 5px;
+}
+
+.contact-btn a {
+  text-decoration: none;
+}
+
+/* Landing Page */
+.main-content {
+  height: Hug (996.41px) px;
+  padding: 133.33px 85.33px 133.33px 85.33px;
+  background-color: #f5fcff;
+  display: flex;
+}
+
+.left-content {
+  flex: 1;
+}
+
+.intro {
+  font-size: 21.33px;
+  font-weight: 600;
+  color: #282938;
+  margin-bottom: 0;
+}
+
+.firstParagraph {
+  font-size: 70.67px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.highlight {
+  color: #5e3bee;
+}
+
+.secondParagraph {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #1c1e53;
+  margin-top: 0;
+}
+
+.get-in-touch-btn {
+  background-color: #5e3bee;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5.33px;
+}
+
+.get-in-touch-btn a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 21.33px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.right-content {
+  flex: 1;
+}
+
+.right-content img {
+  margin-left: 50px;
+  width: 90%;
+}
+
+/* Home */
+.page1 {
+  width: Fixed (1, 920px) px;
+  height: Hug (906px) px;
+  padding: 149.33px 85.33px 149.33px 85.33px;
+}
+
+.skills {
+  margin-bottom: 20px;
+  font-size: 21.33px;
+  font-weight: 600;
+  line-height: 32px;
+  margin-bottom: 0;
+}
+
+.expertise {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 76.8px;
+  text-align: left;
+  margin-top: 0;
+}
+
+.page1-boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.page1-box {
+  width: 22%;
+  padding: 10px;
+  text-align: left;
+}
+
+.page1-box img {
+  width: 50px;
+  height: 50px;
+  margin-right: 100px;
+}
+
+/* About me */
+.page2 {
+  display: flex;
+  width: Fixed (1, 920px) px;
+  height: Hug (906px) px;
+  padding: 149.33px 85.33px 149.33px 85.33px;
+}
+
+.page2-left-content {
+  flex: 1;
+}
+
+.page2-right-content {
+  flex: 1;
+}
+
+.about {
+  color: #282938;
+  font-size: 21.33px;
+  font-weight: 600;
+  line-height: 32px;
+  margin-bottom: 0;
+}
+.about-me {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 76.8px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.page2 p {
+  color: #1c1e53;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  margin-top: 0;
+}
+
+/* Portfolio */
+.page3 {
+  width: Hug (1, 920px) px;
+  height: Hug (1, 262.67px) px;
+  padding: 133.33px 85.33px 133.33px 85.33px;
+}
+
+.projects {
+  font-size: 21.33px;
+  font-weight: 600;
+  line-height: 32px;
+  margin-bottom: 0;
+}
+
+.portfolio {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 76.8px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.page3-boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.page3-box {
+  width: 25%;
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ccc;
+  margin: 20px 40px 0 0;
+}
+
+.page3-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.page3-box h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.page3-box p {
+  margin-bottom: 10px;
+}
+
+.page3-box a {
+  text-decoration: none;
+  color: #000000;
+}
+
+/* Testimonials */
+.page4 {
+  width: Fixed (1, 920px) px;
+  height: Hug (902.19px) px;
+  padding: 149.33px 85.33px 149.33px 85.33px;
+  background-color: #f5fcff;
+}
+.clients {
+  font-size: 21.33px;
+  font-weight: 600;
+  line-height: 32px;
+  margin-bottom: 0;
+}
+.testimonials {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 76.8px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.page4-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 60px;
+}
+
+.page4-box {
+  width: 25%;
+  padding: 20px;
+  border: 1px solid #000000;
+  margin: 10px;
+}
+
+.page4-box img {
+  width: 20%;
+  margin-right: 200px;
+}
+
+.page4-box p {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.page4-box .person-details {
+  display: flex;
+  align-items: center;
+}
+
+.page4-box .person-details img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.page4-box .person-details h3 {
+  margin-bottom: 0;
+}
+.page4-box .person-details p {
+  margin-top: 0;
+}
+
+/* Contact Page */
+.contact-page {
+  width: Fixed (1, 920px) px;
+  height: Hug (1, 421px) px;
+  padding: 149.33px 85.33px 149.33px 85.33px;
+}
+
+.contact-page h2 {
+  margin-bottom: 20px;
+  color: #282938;
+  text-align: center;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 76.8px;
+}
+
+.contact-page p {
+  color: #1c1e53;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-group input {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.form-group select,
+.form-group textarea {
+  width: 100%;
+}
+
+.form-group label[for="terms"] {
+  display: block;
+}
+
+.contact-page button {
+  background-color: #5e3bee;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 550px;
+}
+
+/* Footer*/
+footer {
+  background-color: #f5fcff;
+  width: Hug (1, 920px) px;
+  height: Hug (432px) px;
+  padding: 106.67px 85.33px 106.67px 85.33px;
+  gap: 106.67px;
+}
+.logo img {
+  height: Hug (40px) px;
+}
+
+.footer-links {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social-icons img {
+  width: 20px;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .main-content {
+    padding: 20px;
+  }
+
+  .left-content,
+  .right-content {
+    width: 100%;
+  }
+
+  .page3-box {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .page3-box img {
+    width: 100%;
+  }
+
+  footer {
+    padding: 10px;
+  }
+
+  .logo img {
+    width: 100px;
+  }
+
+  .footer-links {
+    margin-top: 10px;
+  }
+
+  .footer-links a {
+    margin: 0 5px;
+  }
+
+  .social-icons {
+    margin-top: 10px;
+  }
+
+  .social-icons img {
+    width: 20px;
+  }
+}
